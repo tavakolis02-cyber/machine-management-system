@@ -1,48 +1,73 @@
-# Machine & Equipment Management System  
-### (Bilingual: English–Persian)
+# 🏗️ Machine & Equipment Management System  
+**Developer:** Sajad Tavakoli  
+📧 Email: tavakolis02@gmail.com  
+🌐 GitHub: [https://github.com/tavakolis02-cyber](https://github.com/tavakolis02-cyber)
 
 ---
 
-## 🔹 Overview
-This system provides a complete solution for managing machines, equipment, and maintenance records.  
-It supports bilingual operation (English & Persian) and is suitable for factories, workshops, or construction companies that need to track equipment usage, maintenance schedules, and service history.
+## 🇬🇧 English Version
 
-The system consists of:
-- **Backend:** Django + Django REST Framework  
-- **Desktop Client:** PyQt  
-- **Database:** SQLite (easily switchable to PostgreSQL or MySQL)
+### 🔹 Project Overview
+The **Machine & Equipment Management System** is a bilingual (English-Persian) platform designed to manage industrial machines, track maintenance, and optimize resource allocation.  
+It includes a **Django REST API backend** and a **PyQt desktop client** with a professional and user-friendly interface.
+
+### 🔹 Key Features
+- Bilingual Interface (English & Persian)  
+- Machine & Equipment Management (CRUD)  
+- Maintenance Scheduling and Tracking  
+- Database Integration (SQLite / PostgreSQL)  
+- RESTful API for Web/Mobile Integration  
+- User Authentication and Access Control  
+- Professional Dashboard with Data Visualization  
+
+### 🔹 Technologies Used
+- **Backend:** Python (Django REST Framework)  
+- **Frontend (Desktop):** PyQt5  
+- **Database:** SQLite / PostgreSQL  
+- **Version Control:** Git & GitHub  
+
+### 🔹 About the Developer
+> I am **Sajad Tavakoli**, a full-stack Python developer with experience in **Django**, **PyQt**, and **database-driven management systems**.  
+> I focus on delivering **reliable**, **scalable**, and **well-documented** software solutions.  
+>  
+> 📧 Contact: tavakolis02@gmail.com  
+> 🔗 GitHub: [https://github.com/tavakolis02-cyber](https://github.com/tavakolis02-cyber)
 
 ---
 
-## 🔹 Features
-- Machine and equipment registration  
-- Spare parts and maintenance record management  
-- User authentication and role-based access control  
-- RESTful API for external integration  
-- Reporting and export to Excel/PDF  
-- Bilingual interface (English & Persian)
+## 🇮🇷 نسخه فارسی
+
+### 🔹 معرفی پروژه
+سیستم **مدیریت ماشین‌آلات و تجهیزات** یک پلتفرم دو‌زبانه (فارسی و انگلیسی) برای مدیریت ماشین‌آلات صنعتی، زمان‌بندی تعمیرات و بهینه‌سازی منابع است.  
+این سیستم شامل **بک‌اند Django (REST API)** و نرم‌افزار دسکتاپ **PyQt** با طراحی حرفه‌ای می‌باشد.
+
+### 🔹 ویژگی‌های کلیدی
+- رابط کاربری دو‌زبانه (فارسی و انگلیسی)  
+- مدیریت ماشین‌آلات (افزودن، ویرایش، حذف، جستجو)  
+- زمان‌بندی و ثبت سوابق تعمیرات  
+- اتصال به پایگاه داده SQLite / PostgreSQL  
+- طراحی API برای اتصال به سیستم‌های دیگر  
+- احراز هویت کاربران و کنترل سطح دسترسی  
+- داشبورد مدیریتی با نمودار و آمار  
+
+### 🔹 تکنولوژی‌های استفاده‌شده
+- **Backend:** Python (Django REST Framework)  
+- **Frontend:** PyQt5  
+- **Database:** SQLite / PostgreSQL  
+- **Version Control:** Git & GitHub  
+
+### 🔹 درباره توسعه‌دهنده
+> من **سجاد توکلی** هستم، توسعه‌دهنده فول‌استک پایتون با تجربه در **Django**، **PyQt** و طراحی سیستم‌های مدیریتی مبتنی بر پایگاه داده.  
+> تمرکز من روی ارائه‌ی نرم‌افزارهای پایدار، مستندسازی‌شده و مقیاس‌پذیر است.  
+>  
+> 📧 ایمیل: tavakolis02@gmail.com  
+> 🔗 گیت‌هاب: [https://github.com/tavakolis02-cyber](https://github.com/tavakolis02-cyber)
 
 ---
 
-## 🔹 Installation
-### Requirements
-- Python 3.10+
-- pip
-- Virtual environment (recommended)
+## 📦 Installation Guide
 
-### Steps
-```bash
-# 1. Clone repository
-git clone https://github.com/tavakolis02-cyber
-
-# 2. Enter project directory
-cd machine-management-system
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Run migrations
-python manage.py migrate
-
-# 5. Start server
-python manage.py runserve
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/tavakolis02-cyber/machine_management_system.git
+   cd machine_management_system
