@@ -33,7 +33,7 @@ The system consists of:
 ### Steps
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/machine-management-system.git
+git clone https://github.com/tavakolis02-cyber
 
 # 2. Enter project directory
 cd machine-management-system
@@ -45,4 +45,4 @@ pip install -r requirements.txt
 python manage.py migrate
 
 # 5. Start server
-python manage.py runserver
+python manage.py runserve
